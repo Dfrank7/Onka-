@@ -40,12 +40,12 @@ public class DaysFrag extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        days.add(new Word("Aiku","Sunday",R.raw.sun));
-        days.add(new Word("Aje","Monday",R.raw.mon));
-        days.add(new Word("Isegun","Tuesday",R.raw.tue));
-        days.add(new Word("Ojoru","Wednesday",R.raw.wed));
-        days.add(new Word("Ojobo","Thursday",R.raw.thyr));
-        days.add(new Word("Eti","Friday",R.raw.fri));
-        days.add(new Word("Abameta","Saturday",R.raw.sat));
+        days.add(new Word("Aiku","Sunday",R.drawable.play,R.raw.sun));
+        days.add(new Word("Aje","Monday",R.drawable.play,R.raw.mon));
+        days.add(new Word("Isegun","Tuesday",R.drawable.play,R.raw.tue));
+        days.add(new Word("Ojoru","Wednesday",R.drawable.play,R.raw.wed));
+        days.add(new Word("Ojobo","Thursday",R.drawable.play,R.raw.thyr));
+        days.add(new Word("Eti","Friday",R.drawable.play,R.raw.fri));
+        days.add(new Word("Abameta","Saturday",R.drawable.play,R.raw.sat));
     }
 }
